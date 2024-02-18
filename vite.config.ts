@@ -22,6 +22,8 @@ export default defineConfig({
     css: true,
     coverage: {
       reporter: ["text", "json", "html"],
+      enabled: true,
+      exclude: ["**/html/assets/**"],
     },
     reporters: ["html"],
   },

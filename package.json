@@ -10,7 +10,7 @@
     "lint": "biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true src",
     "lint:style": "stylelint src/**/*.{css,scss}",
     "test": "vitest --ui",
-    "coverage": "vitest run --ui --coverage",
+    "test:coverage": "vitest run --coverage",
     "postinstall": "husky install"
   },
   "dependencies": {
